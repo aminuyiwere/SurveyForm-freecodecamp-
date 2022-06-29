@@ -1,0 +1,75 @@
+*{
+  --color-white:  #f3f3f3;
+  --color-darkblue:  #1b1b32;
+  --color-darkblue-alpha:  rgba(27, 27, 50, 0.8);
+  --color-green:  #37af65;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:var(--color-darkblue-alpha);
+
+ 
+  }
+  img{
+    
+    position: fixed;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  #title{
+    color: var(--color-white);
+    margin: auto;
+  }
+#description{
+  color: var(--color-white)
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+ }
+ #survey-form{
+    background-color: rgb(46, 7, 82);
+    color:antiquewhite;
+   font-family: helvetica;
+   padding: 15px;
+  }
+  label{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  #survey-form .input{
+    width: 90%;
+    /* margin-left: 2em; */
+   
+  }
+  #survey-form .input-submit{
+    height: 3em;
+    margin-top:1em;
+    margin-bottom: 1em;
+  
+  }
+  #survey-form label{
+    /* margin-left: 2rem ; */
+  }
+
+  #dropdown{
+    width: 90%;
+    height: 3em;
+    margin-top:1em;
+    /* margin-left: 2em; */
+  }
+  .recommend{
+  margin-top: 2em;
+  }
+  .recommend label{
+    width: 3em;
+    /* margin-left: 0; */
+    /* display: inline; */
+  }
+  textarea{
+    width: 90%;
+    
+  }

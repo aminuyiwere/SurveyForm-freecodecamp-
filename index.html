@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>survey form</title>
+</head>
+<body>
+    <img src="images/survey-form-background.jpeg" alt="backgroud image">
+<main>
+    <div class="container">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form"action="">
+        <!-- name  -->
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" name="Name" id="name" class="input-submit input" placeholder="Enter your name" required><br>
+        <!-- email -->
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" name="Email" id="email" class="input-submit input" placeholder="Enter your email" required><br>
+        <!-- age -->
+        <label for="number" id="number-label">Age</label><br>
+        <input type="number" name="Age" id="number" class="input-submit input" placeholder="Enter your age" min="12" max="100"><br>
+        <!-- role -->
+        <label for="dropdown" class="drop">Which option best describes your current role?</label> <br>
+        <select name="role" id="dropdown">
+        <option value="" selected>current role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="job">Full time job</option>
+        <option value="learner">Full time learner</option>
+        <option value="other">Other</option>
+        </select>
+        <br>
+        <!-- recommend? -->
+<div class="recommend">
+<p>Would you recommend freeCodeCamp to a friend?</p>
+<br>
+<label for="recommend" >
+<input type="radio" name="user-recommend" value="definately">Definately
+</label>
+<br>
+<label for="recommend">
+  <input type="radio" name="user-recommend" value="maybe">Maybe </label><br>
+  <label for="recommend">
+<input type="radio" name="user-recommend" value="other">Other</label>
+<br>
+<p>What would you like to see improved? (Check all that apply)</p><br>
+<label>
+     <input type="checkbox" name="user-suggestion" value="front-end project">
+     front-end projects
+</label>
+ <br>
+ <label >
+  <input type="checkbox" name="user-suggestion" value="backend project">
+   backend projects
+ </label>
+ <br>
+<label>
+  <input type="checkbox" name="user-suggestion" value="data visualization projects">data visualization 
+ </label>
+ <br>
+ <label>
+   <input type="checkbox" name="user-suggestion" value="wiki">
+   wiki</label><br>
+ <label>
+ <input type="checkbox" name="user-suggestion" value="datascience">
+ datascience</label>  <br>
+        </div>
+        <label for="comments">Any comments or suggestions?</label><br>
+         <textarea name="" id="comments" cols="30" rows="10" placeholder="Enter your comments here...."></textarea><br>
+            <!-- submit -->
+<input type="submit" value="submit" class="input-submit input" id="submit">
+</form>
+    </div>
+</main>
+    </body>
+    </html>
