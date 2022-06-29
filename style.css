@@ -47,10 +47,13 @@ body{
     color:antiquewhite;
    font-family: helvetica;
    padding: 15px;
+   border-radius: 1%;
   }
   label{
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    border-radius: 1%;
+    border-style: none;
   }
   #survey-form .input{
     width: 90%;
